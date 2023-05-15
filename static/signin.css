@@ -1,0 +1,64 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Roboto' !important;
+}
+body {  
+    background: url(img/wave-haikei\ \(1\).svg);
+    padding-top: 5%;
+    height: 45vw;
+}
+.sign {
+    display: flex;
+    justify-content: center;
+}
+div {
+    position: absolute;
+    background: #dcceb6;
+    border: 1px solid #55555451;
+    width: 50vh;
+    height: 70vh; 
+}
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.form h2 {
+    position: relative;
+    top: 20%;
+    font-size: 200%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #579BB1;
+    letter-spacing: 5px;
+    height: 10%;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+form nav {
+    display: flex;
+    flex-direction: column;
+}
+form nav span {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+
+} 
+form nav span input {
+    font-size: 15px;
+    font-weight: 700;
+    border: 0px;
+    background-color: #f8f4ea00;
+    border-bottom: 1.5px solid rgb(12, 12, 12);
+}
+.sub {
+    width: 6.5em;
+    height: 2em;
+    border: 0px;
+    font-size: 2vh;
+    font-weight: bold;
+}

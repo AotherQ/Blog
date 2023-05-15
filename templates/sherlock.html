@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="screen" href="{{ url_for('static', filename='sherlock.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" href="icons8-archive-48.png" type="image/x-icon" />    
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">    <title>Review Tour</title>
+</head>
+<body>
+    <header>
+        <section class="head">
+            <nav class="contact">
+                <ul class="contact-items">
+                    <li class="contact-item">
+                        <a href="mailto:kaynakkadir56@gmail.com">kaynakkadir56@gmail.com</a>
+                    </li>
+                    <li class="contact-item">
+                        <a href="">+90 530 884 47 12</a>
+                    </li>
+                </ul>
+            </nav>
+            <nav id="dnm">
+                <ul class="head-items">
+                    <li class="head-item">
+                        <a href="#"><img src="{{ url_for('static', filename='img/instagram (2).png') }}" alt=""></a>
+                    </li>
+                    <li class="head-item">
+                        <a href="https://twitter.com/KadirKynK134"><img src="{{ url_for('static', filename='img/twitter (1).png') }}" alt=""></a>
+                    </li>
+                    <li class="head-item">
+                        <a href="#"><img src="{{ url_for('static', filename='img/linkedin.png') }}" alt=""></a>
+                    </li>
+                    <li class="head-item">
+                        <a href="https://github.com/Koiosq"><img src="{{ url_for('static', filename='img/github (1).png') }}" alt=""></a>
+                    </li>
+                </ul> 
+            </nav>
+        </section>
+        <section class="title">
+            <section class="-title">
+                <h1>Review Tour</h1>
+            </section>
+            <section class="side-title">
+                <ul class="search-items">
+                    <li class="search-item" >
+                        <a href="{{url_for('Home')}}">Home</a>
+                    </li>
+                    <li class="search-item">
+                        <a href="javascript:void(0)" class="dropbtn" onclick="myFunction()">Book Types</a>
+                        <div class="dropdown-content" id="myDropdown">
+                            <a href="#">Philosophy</a>
+                            <a href="#">Classics</a>
+                            <a href="#">Detective</a>
+                            <a href="#">Autobiographies</a>
+                            <a href="#">Sci-Fi</a>
+                            <a href="#">History</a>
+                        </div>  
+                    </li>
+                    <li class="search-item">
+                        <a href="#">Movie Types</a>
+                    </li>
+                    <li class="search-item">
+                        <a href="#">New Releases</a>
+                    </li>
+                </ul>
+                
+            </section>
+        </section>
+        <hr style="margin-top: 1%; margin-bottom: 9%; width: 90%; margin-left: 5%; border-bottom: 0.5px  solid #363533;">
+        <!-- <section class="search">
+            <ul class="search-items">
+                <li class="search-item" >
+                    <a href="#" style="color:#579BB1 !important">Home</a>
+                </li>
+                <li class="search-item">
+                    <a href="#">Book Types</a>
+                </li>
+                <li class="search-item">
+                    <a href="#">Movie Types</a>
+                </li>
+                <li class="search-item">
+                    <a href="#">New Releases</a>
+                </li>
+            </ul>
+        </section> -->
+    </header>
+    <article class="promotion-bar">
+        <img src="{{ url_for('static', filename='img/Nobl-08.jpg') }}" class="w-2/5" alt="">
+        <nav class="w-3/5 h-48">
+            <span style="font-weight: 400; font-size: 14px; color: #363533;">March 2023</span>
+            <p id="p-b-title" style="margin-top: -1%; font-weight: 700; font-size: 7vh;">The Adventure of the Noble Bachelor</p>
+            <p id="p-b-aot" style="font-size: 2vh; font-style: italic;font-weight: 500;">Feature by the editors of Koios</p>
+            <p id="p-b-cont" style="font-size: 2.7vh; font-weight: 400;">The story entails the disappearance of Hatty, Lord St..</p>
+        </nav>
+    </article>
+    <main>
+        <section>
+            <h2 style="font-size: 6.5vh; font-weight: 1000; font-family: 'Roboto';">Plot summary</h2>
+            <article class="main-cntent">
+                The story entails the disappearance of Hatty, Lord St. Simon's bride on the day of their marriage. She participates in the wedding, but disappears from the reception.
+                <img src="{{ url_for('static', filename='img/sh2.jpg') }}" style="width: 35vh; float: right; clear: both;margin: 1%;" alt="">
+The events of the wedding day are most perplexing to Lord St. Simon as it seemed to him that his bride, Miss Hatty Doran of San Francisco, was full of enthusiasm about their impending marriage. St. Simon tells Holmes that he noticed a change in the young lady's mood just after the wedding ceremony. She was uncharacteristically sharp with him. The only thing out of the ordinary at the church where the wedding took place was Hatty's little accident: she dropped her wedding bouquet and a gentleman in the front pew picked it up and handed it back to her.
+
+After the bridal party entered Hatty's father's house for the wedding breakfast, a former companion of St. Simon, the dancer Flora Millar, caused a disturbance at the door and was ejected. Hatty was seen talking to her maid upon arrival at the house; ten minutes into the wedding breakfast, Hatty claimed "a sudden indisposition" and retired to her room. A short time later, it was discovered that she had left the house.
+<img style="width: 30vh; float: left; clear: both; margin: 1%;" src="{{ url_for('static', filename='img/sh1.jpeg') }}" alt="">
+There are many questions that Holmes must sift through. Who was that woman trying to get in to the wedding breakfast? Who was that man in the front pew? Who was that man seen going into Hyde Park with Hatty? Why were Hatty's wedding dress and ring found washed up on the shore of the Serpentine? What had become of her?
+
+For Holmes it proves rather an elementary case, for he has dealt with similar cases and this one is not so complex to unravel, despite the confusion it causes Dr. Watson and Inspector Lestrade, the latter of which attempted to drag the Serpentine in search of Lady St. Simon's body. Holmes finds Hatty and the strange man from the front pew, and the dénouement takes the form of Holmes having Hatty explain herself to Lord Robert. Hatty and the mystery man, Francis H. Moulton, were husband and wife. They parted on the day of their wedding so that he could try to amass a fortune by prospecting. He was reported killed in an Apache raid on a mining camp where he was working. Hatty had given him up for dead, met Lord Robert, and decided to marry him, even though her heart still belonged to Frank. Frank had only been taken prisoner by the Apache raiders, and he escaped and tracked Hatty to London. He arrived at the church in time for the ceremony and she recognized him instantly. Rather than have her make a scene at the church, he gestured her to be silent, and wrote a note which he slipped to her as he returned her bouquet. She had wanted to abscond without ever telling anybody, but Holmes had tracked them down and convinced them that it would be better to have the full truth. However, Lord Robert is unmoved by Hatty's apologies and feels that he has been very ill used.
+            </article><br>
+            <h2 style="font-size: 6.5vh; font-weight: 1000; font-family: 'Roboto';">Publication History</h2>
+            <article>
+                "The Adventure of the Noble Bachelor" was first
+                published in the UK in The Strand Magazine in 
+                April 1892, and in the United States in the US
+                 edition of the Strand in May 1892. The sto
+                 ry was published with eight illustrations by 
+                 Sidney Paget in The Strand Magazine. It was
+                  included in the short story collection The 
+                  Adventures of Sherlock Holmes, which was
+                   published in October 1892.
+            </article><br>
+            <h2 style="font-size: 6.5vh; font-weight: 1000; font-family: 'Roboto';">Adaptations</h2>
+            <article>
+                <nav>
+                    <h3 style="font-size: 5vh; font-weight: 500; font-family: 'Roboto';">Film and television</h3><br>
+                    <p>
+                        The story was adapted as a silent short film released in 1921 as part of the Stoll film series starring Eille Norwood as Holmes.
+
+The Granada Sherlock Holmes television series adapted the story in 1993 as a feature-length television film entitled The Eligible Bachelor. The film makes significant changes and the inclusion of elements from other parts of the Holmes canon. It features Jeremy Brett as Sherlock Holmes, Edward Hardwicke as Dr. Watson and Simon Williams as Robert, Lord St. Simon.
+
+The 2018 HBO Asia/Hulu Japan series Miss Sherlock loosely adapts this story as the episode "The Missing Bride." In this version, the solution to the original story is revealed to be a red herring, and the bride's true motive for disappearing is quite different.
+                    </p>
+                </nav><br>
+                <nav>
+                    <h3 style="font-size: 5vh; font-weight: 500; font-family: 'Roboto';">Radio</h3><br>
+                    <p>
+                        Edith Meiser adapted the story as an episode of the radio series The Adventures of Sherlock Holmes. The episode, titled "The Noble Bachelor", aired on 22 December 1930, starring Richard Gordon as Sherlock Holmes and Leigh Lovell as Dr. Watson. A repeat broadcast of the episode aired in 1933, and a remake aired in July 1936 (with Gordon as Holmes and Harry West as Watson).
+
+                        Edith Meiser also adapted the story as an episode of the radio series The New Adventures of Sherlock Holmes, with Basil Rathbone as Holmes and Nigel Bruce as Watson, that aired on 13 October 1940. A 1943 episode titled "A Sword That Beheaded Three Queens" was referred to by some newspapers as "The Noble Bachelor's Second Wedding", which may indicate that the episode was inspired by "The Adventure of the Noble Bachelor".
+                        
+                        A radio adaptation of the story aired on the BBC Light Programme in 1959, as part of the 1952–1969 radio series starring Carleton Hobbs as Holmes and Norman Shelley as Watson. It was adapted by Michael Hardwick.
+                        
+                        "The Noble Bachelor" was dramatised for BBC Radio 4 in 1991 by Bert Coules, as an episode of the 1989–1998 radio series starring Clive Merrison as Holmes and Michael Williams as Watson. It featured Donald Gee as Inspector Lestrade.
+                        
+                        The story was adapted as an episode of the radio series The Classic Adventures of Sherlock Holmes, starring John Patrick Lowrie as Holmes and Lawrence Albert as Watson. The episode aired in 2015                    </p>
+                </nav>
+            </article>
+        </section>
+        <nav id="side-content" style="padding-top: 2%;">
+            <h2 style="font-size: 5vh;text-align: center;font-family: 'Roboto';">Sherlock Holmes</h2>
+            <section>
+                <img src="{{ url_for('static', filename='img/images.jpeg') }}" alt="">
+                <div style="display: flex; flex-direction: row;margin-top: 4%;">
+                    <b>Author</b> <p>Conan Doyle</p>
+                </div>
+                <div style="display: flex; flex-direction: row;margin-top: 4%;">
+                    <b>Country</b> <p>United Kingdom</p>
+                </div>
+                <div style="display: flex; flex-direction: row;margin-top: 4%;">
+                    <b>Language</b> <p>English</p>
+                </div>
+                <div style="display: flex; flex-direction: row;margin-top: 4%;">
+                    <b>Genre</b> <p>Detective Fiction</p>
+                </div>
+                <div style="display: flex; flex-direction: row; margin-top: 4%;">
+                    <b>Publisher</b> <p>Strand Magazine</p>
+                </div>
+                <div style="display: flex; flex-direction: row; margin-top: 4%;">
+                    <b>Publication date</b> <p>	April 1892</p>
+                </div>
+            </section>
+        </nav>
+    </main>
+    <footer class="foot">
+        <section class="foot-contact">
+            <nav class="promotion">
+                <p>Review Tour</p>
+                <div>
+                    Hello, I'm Kadir Kaynak. This Blog will feature book, 
+                    movie and TV series reviews. I hope you like the contents
+                </div>
+            </nav>
+            <nav class="menu">
+                <p>Menu</p>
+                <ul class="menu-items">
+                    <li class="menu-item" >
+                        <a href="{{url_for('Home')}}">Home</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#">About Us</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#">Contact Us</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#">New Releases</a>
+                    </li>
+                </ul>
+            </nav>
+            <nav class="menu">
+                <p>Disclosures</p>
+                <ul class="menu-items">
+                    <li class="menu-item" >
+                        <a href="#">Privacy Policy</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#">Affiliate Disclosure</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#">Terms and Conditions</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#">Disclaimer</a>
+                    </li>
+                </ul>
+            </nav>
+            <nav class="Author">
+                <p>About The Author</p>
+                <a href="https://github.com/Koiosq"><img src="{{ url_for('static', filename='img/koios-titan.jpg') }}" alt=""></a>
+                <p>Koios</p>
+            </nav>
+        </section>
+        <section class="c">
+            <p style="color: #4a4947; font-size: 16px; text-align: center; margin-top: 4%;">
+                Copyright 2023 - All Rights Reserved
+            </p>
+            <section class="sm">
+                <a href=""><img src="{{ url_for('static', filename='img/instagram.png') }}" style="margin-top: 6%;" alt=""></a>
+                <a href="https://twitter.com/KadirKynK134"><img src="{{ url_for('static', filename='img/twitter.png') }}" style="margin-top: 6%;" alt=""></a>
+                <a href="https://github.com/Koiosq"><img src="{{ url_for('static', filename='img/github.png') }}" style="margin-top: 6%;" alt=""></a>
+                <a href="mailto:kaynakkadir56@gmail.com"><img src="{{ url_for('static', filename='img/gmail.png') }}" style="margin-top: 6%;" alt=""></a>
+                <a href=""><img src="{{ url_for('static', filename='img/spotify-logo.png') }}" style="margin-top: 6%;" alt=""></a>
+            </section>
+        </section>
+    </footer>
+    <script src="{{ url_for('static', filename='Home.js') }}"></script>
+</body>
+</html>

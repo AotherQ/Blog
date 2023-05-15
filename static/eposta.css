@@ -1,0 +1,75 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+    font-weight: 600;
+}
+body {  
+    background: url(img/wave-haikei\ \(1\).svg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 7%;
+}
+section {
+    width: 100vh;
+    height: 65vh;
+    background: #dcceb6;
+    box-shadow: 10px 10px 15px #353535;
+    padding-top: 5%;
+}
+form {
+    padding: 5%;
+    display: flex;
+    column-gap: 15px;
+    justify-content: center;
+}
+.leftform {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.rightform {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.rightform input {
+    height: 200%;
+}
+.savebutton {
+    padding: 0.5%;
+    width: 15vh;
+    border: 0px;
+    font-size: 2.5vh; 
+    margin-left: 22%;   
+}
+@media (max-width: 890px) {
+    section {
+        width: 70vh;
+        height: 65vh;
+    }
+    form {
+        padding-top: 15%;
+        column-gap: 50px;
+    }
+    .savebutton {
+        margin-left: 17%;
+    }
+}
+@media (max-width: 495px) {
+    section {
+        width: 50vh;
+        height: 65vh;
+    }
+    form {
+        flex-direction: column;
+        padding-top: 10%;
+        padding-left: 25%;
+        row-gap: 50px;
+    }
+    .savebutton {
+        margin-left: 25%;
+    }
+}

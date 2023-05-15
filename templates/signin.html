@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="screen" href="{{ url_for('static', filename='signup.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" href="icons8-archive-48.png" type="image/x-icon" />    
+    <title>Review Tour</title>
+</head>
+<body>
+    <nav>
+        <nav class="sign">   
+            <div style="transform: rotate(1deg);"></div>
+            <div style="transform: rotate(-1deg);"></div>
+            <div class="form">
+                <h2>Review Tour</h2>
+
+                <form action="/signin" method="Post">
+                    <nav>
+                        <span><label>Username:</label><input type="text" name="uName" id="uName"><br></span>
+                        <span><label>Mail:</label><input type="text"name="uEmail" id="uEmail"><br></span>                 
+                        <span><label>Password:</label><input type="text" name="uPassword" id="uPassword"><br></span>
+                    </nav>
+                    <input type="submit" value="Sign In" class="sub">
+                    <p style="display: flex; justify-content: center;padding-top: 1%;">Don't Have an Account <a href="{{url_for('signup')}}">Sign Up</a></p>
+                </form>
+            </div>
+        </nav>
+    </nav>  
+</body>
+</html>

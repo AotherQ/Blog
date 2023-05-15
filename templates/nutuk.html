@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="screen" href="{{ url_for('static', filename='nutuk.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" href="icons8-archive-48.png" type="image/x-icon" />    
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">    <title>Review Tour</title>
+</head>
+<body>
+    <header>
+        <section class="head">
+            <nav class="contact">
+                <ul class="contact-items">
+                    <li class="contact-item">
+                        <a href="mailto:kaynakkadir56@gmail.com">kaynakkadir56@gmail.com</a>
+                    </li>
+                    <li class="contact-item">
+                        <a href="">+90 530 884 47 12</a>
+                    </li>
+                </ul>
+            </nav>
+            <nav id="dnm">
+                <ul class="head-items">
+                    <li class="head-item">
+                        <a href="#"><img src="{{ url_for('static', filename='img/instagram (2).png') }}" alt=""></a>
+                    </li>
+                    <li class="head-item">
+                        <a href="https://twitter.com/KadirKynK134"><img src="{{ url_for('static', filename='img/twitter (1).png') }}" alt=""></a>
+                    </li>
+                    <li class="head-item">
+                        <a href="#"><img src="{{ url_for('static', filename='img/linkedin.png') }}" alt=""></a>
+                    </li>
+                    <li class="head-item">
+                        <a href="https://github.com/Koiosq"><img src="{{ url_for('static', filename='img/github (1).png') }}" alt=""></a>
+                </ul> 
+            </nav>
+        </section>
+        <section class="title">
+            <section class="-title">
+                <h1>Review Tour</h1>
+            </section>
+            <section class="side-title">
+                <ul class="search-items">
+                    <li class="search-item" >
+                        <a href="{{url_for('Home')}}">Home</a>
+                    </li>
+                    <li class="search-item">
+                        <a href="javascript:void(0)" class="dropbtn" onclick="myFunction()">Book Types</a>
+                        <div class="dropdown-content" id="myDropdown">
+                            <a href="#">Philosophy</a>
+                            <a href="#">Classics</a>
+                            <a href="#">Detective</a>
+                            <a href="#">Autobiographies</a>
+                            <a href="#">Sci-Fi</a>
+                            <a href="#">History</a>
+                        </div>  
+                    </li>
+                    <li class="search-item">
+                        <a href="#">Movie Types</a>
+                    </li>
+                    <li class="search-item">
+                        <a href="#">New Releases</a>
+                    </li>
+                </ul>
+                
+            </section>
+        </section>
+        <hr style="margin-top: 1%; margin-bottom: 9%; width: 90%; margin-left: 5%; border-bottom: 0.5px  solid #363533;">
+        <!-- <section class="search">
+            <ul class="search-items">
+                <li class="search-item" >
+                    <a href="#" style="color:#579BB1 !important">Home</a>
+                </li>
+                <li class="search-item">
+                    <a href="#">Book Types</a>
+                </li>
+                <li class="search-item">
+                    <a href="#">Movie Types</a>
+                </li>
+                <li class="search-item">
+                    <a href="#">New Releases</a>
+                </li>
+            </ul>
+        </section> -->
+    </header>
+    <article class="promotion-bar">
+        <img src="{{ url_for('static', filename='img/nutuk-m.png') }}" height="98%" class="w-2/5" alt="">
+        <nav class="w-3/5 h-48">
+            <span style="font-weight: 400; font-size: 14px; color: #363533;">March 2023</span>
+            <p id="p-b-title" style="margin-top: -1%; font-weight: 700; font-size: 7vh;">Nutuk</p>
+            <p id="p-b-aot" style="font-size: 2vh; font-style: italic;font-weight: 500;">Feature by the editors of Koios</p>
+            <p id="p-b-cont" style="font-size: 2.7vh; font-weight: 400;">The speech covered the events between the start of the Turkish War of Independence on 19 May 1919..</p>
+        </nav>
+    </article>
+    <main>
+        <section>
+            <article class="main-cntent">
+                Word, speech; Nutuk, which is used in the sense of oration, can be defined as "a long, enthusiastic and beautiful speech, speech, oratory, which is said to instill thoughts and feelings in a community". On the other hand, the speech, which almost everyone agrees on, is synonymous with speech. utterance, strength and precision of utterance; It is also frequently used in daily life as the verse words of people who are known to be great by the old dervishes. When Atatürk's Speech is mentioned, 
+                <img src="{{ url_for('static', filename='img/indir (1).jpeg') }}" style="width: 35vh; float: right; clear: both;margin: 1%;" alt="">      
+     
+                the speech made by Mustafa Kemal Atatürk on October 15-20, 1927, at the Second Great Congress of the Republican People's Party, for six days, in 36 hours and 33 minutes in total, comes to mind. Mustafa Kemal Pasha started his work on Nutuk in the beginning of 1927 in Ankara. Afterwards, he completed his work in Istanbul in a short time as a result of intense work. As a result, after months of work, document collection and exchange of views, Mustafa Kemal Pasha read the Speech at the Second Grand Convention of the Republican People's Party, which was held between 15 and 20 October 1927. Mustafa Kemal Pasha, the first day (October 15, 1927-Saturday), the part from the landing in Samsun on May 19, 1919 to the Sivas Congress; the second day (October 16, 1927-Sunday), the events leading up to the elections of the Last Ottoman Parliament; on the third day (October 17, 1927-Monday), the developments until the opening of the Grand National Assembly; the fourth day (October 18, 1927-Tuesday), the military and political developments until the Second İnönü Victory; on the fifth day (October 19, 1927-Wednesday) the process leading to the Lausanne Peace Treaty; On the sixth and last day (Thursday, October 20, 1927), he read the developments after Lausanne and finished his speech with the Address to the Youth. In the meantime, Mustafa Kemal Pasha read some of the documents he collected while preparing the Nutuk, and some of them were read by the Congress Clerk Ruşen Eşref Bey. Based on this information, it is possible to say that Nutuk is a work that tells about the events, facts, developments, the people who played a role in these developments and the political relations between these people between 19 May 1919 and 20 October 1927. In his work, Mustafa Kemal Pasha revealed the conditions the country was in during the years of the War of Independence, and explained in detail, based on documents, the conditions under which the War of Independence and the modernization efforts that began after this war took place.
+            </article><br>
+            <h2 style="font-size: 6.5vh; font-weight: 1000; font-family: 'Roboto';">Context</h2>
+            <article>
+                <p>
+                    Mustafa Kemal begins his speech by describing the situation of the Ottoman Empire when he landed at Samsun to start the Turkish War of Independence in 1919:
+                </p>
+                <li style="list-style-type: circle; margin-top: 1%; margin-left: 2%;">
+                    "Gentlemen,
+                    I landed at Samsun on the 19th May, 1919. This was the position at that time: The group of powers, 
+                    <img style="width: 30vh; float: right; clear: both; margin: 1%;" src="{{ url_for('static', filename='img/indir.jpeg') }}" alt="">
+                    to which the Ottoman Empire was one, has been defeated in the Great War. The Ottoman Army has been surrendered in all directions and an armistice with harsh terms has been signed. During the years of Great War, the people were exhausted and driven to poverty. Those who had sent their nation to war have now escaped, their only anxiety being their own welfare. Vahdettin, the one carrying the titles of Sultan and Caliph, degenerated; only dreaming of the ways to save his thrown. The government under the grand vizirate of Damat Ferit Paşa, without honor, frightened and incompetent, under the command of the sultan and in the same boat as him, ready to accept anything for the sake of their lives."
+                    "The Entente Powers did not consider it necessary to respect the terms of the armistice. 
+                    On various pretexts, their men-of-war and troops remained at İstanbul. The Vilayet of Adana was occupied by the French; Urfa, Maraş, Antep, by the English. In Antalya and Konya were Italians, whilst at Merzifon and Samsun were English troops. Foreign officers and officials and their special agents were very active everywhere. At last, on the 15th of May, that is to say, four days before the following account of the event begins, the Greek Army, with the consent of the Entente Powers, had landed at İzmir."
+                </li>
+                <p>
+                    He argues that the Ottoman Empire is on its death throes by 1919. The people and the army keep loyal to the Sultan who was guilty of treachery, due to centuries old traditions and dogmas:
+                </p>
+                <li style="list-style-type: circle; margin-top: 1%; margin-left: 2%;">
+                    "The enemy states were attacking the Ottoman State materially and psychologically; they were determined to partition it. The person carrying the titles of the sultan and caliph was only anxious to save his own life. The government was behaving similarly. The people left without guidance waited in darkness, anticipating an unknown future. Those who began to understand the horrible situation were contemplating the ways of salvation, turning to those tools familiar to them. The army existed only in name. The officers were exhausted after the Great War, while the terrible situation before them was tearing their hearts out, and still they were searching the ways to salvation. Here I want to stress one important thing. The army and the people were altogether unaware of the treachery of the sultan-caliph. They were attached to these institutions by their soul, an affection based on a tradition of several centuries. The people could not even consider their salvation without the guidance of the sultan-caliph."
+                </li>
+                <p>
+                    He asserts that Turkey can only be respected by other powers if it achieves independence:
+                </p>
+                <li style="list-style-type: circle; margin-top: 1%; margin-left: 2%;">
+                    "I took my turn to speak and I declared loudly: Gentleman, power and sovereignty are not given from one person to another by scholarly debates or polemics. Sovereignty is taken by force. The Ottomans took the sovereignty of the Turkish people by force. These usurpers managed to rule 600 years. Today the Turkish Nation has reclaimed that sovereignty for itself. This is an accomplished fact. There is no need to discuss this further. It is quite desirable that those present here can accept this truth. Otherwise some heads will roll during this process."
+                </li>
+            </article><br>
+            <h2 style="font-size: 6.5vh; font-weight: 1000; font-family: 'Roboto';">Analysis</h2>
+            <article>
+                According to Turkish historian Hakan Uzun, Nutuk is an embodiment of the core values of the nation that Atatürk has embraced. The speech covers the importance of national unity to both the National Movement and the republic. The National Movement, with the goal of achieving independence and unity through the pursue of sovereignty, has done so with a defensive position rather than an aggressive one via a lawful foundation.[10]
+
+                According to Turkish sociologist Fatma Müge Göçek, the speech was "adopted as the official Turkish national narrative and became sacralized by the state". Göçek stated that, because the law criminalizes insulting Atatürk, Turkish historians have been unable to analyze the speech critically. She said: "It is evident that the text commences the birth of the Turkish nation with 1919, removing in the process the demise of the Armenians in 1915 through state violence to the realm of Republican prehistory."[14]
+
+                Historian Marc David Baer wrote:
+                <img style="width: 30vh; float: left; clear: both; margin: 1%;" src="{{ url_for('static', filename='img/0000000325204-1.jpg') }}" alt="">
+                <li style="list-style-type: circle; margin-top: 1%; margin-left: 2%;">
+                    The main themes of the speech—and of the official discourse on the Armenian genocide—are silence, denial of the genocide, general amnesia about past violence (unless presenting Turks as the real victims), identifying with the perpetrators, never questioning the great prophetic and infallible leader (Atatürk), and promoting the racial purification of the land in the face of a life-or-death Darwinian struggle with minorities
+                </li><br>
+                British Historian Perry Anderson states that, "The speech he gave in 1927 that became the official creed of the nation dwarfed any address by Khrushchev or Castro. Extolling his own achievements, it went on for 36 hours, delivered over six days, eventually composing a tome of 600 pages: a record in the annals of autocracy."
+            </article>
+        </section>
+        <nav id="side-content" style="padding-top: 2%;">
+            <h2 style="font-size: 5vh;text-align: center;font-family: 'Roboto';">1984</h2>
+            <section>
+                <img src="{{ url_for('static', filename='img/220px-Nutuk.jpg') }}" alt="">
+                <div style="display: flex; flex-direction: row;margin-top: 4%;">
+                    <b>Author</b> <p>M. Kemal Atatürk</p>
+                </div>
+                <div style="display: flex; flex-direction: row;margin-top: 4%;">
+                    <b>Country</b> <p>Turkey</p>
+                </div>
+                <div style="display: flex; flex-direction: row;margin-top: 4%;">
+                    <b>Language</b> <p>Turkish</p>
+                </div>
+                <div style="display: flex; flex-direction: row;margin-top: 4%;">
+                    <b>Genre</b> <p>History</p>
+                </div>
+                <div style="display: flex; flex-direction: row; margin-top: 4%;">
+                    <b>Publication date</b> <p>20 October 1927</p>
+                </div>
+            </section>
+        </nav>
+    </main>
+    <footer class="foot">
+        <section class="foot-contact">
+            <nav class="promotion">
+                <p>Review Tour</p>
+                <div>
+                    Hello, I'm Kadir Kaynak. This Blog will feature book, 
+                    movie and TV series reviews. I hope you like the contents
+                </div>
+            </nav>
+            <nav class="menu">
+                <p>Menu</p>
+                <ul class="menu-items">
+                    <li class="menu-item" >
+                        <a href="{{url_for('Home')}}">Home</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#">About Us</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#">Contact Us</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#">New Releases</a>
+                    </li>
+                </ul>
+            </nav>
+            <nav class="menu">
+                <p>Disclosures</p>
+                <ul class="menu-items">
+                    <li class="menu-item" >
+                        <a href="#">Privacy Policy</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#">Affiliate Disclosure</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#">Terms and Conditions</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#">Disclaimer</a>
+                    </li>
+                </ul>
+            </nav>
+            <nav class="Author">
+                <p>About The Author</p>
+                <a href="https://github.com/Koiosq"><img src="{{ url_for('static', filename='img/koios-titan.jpg') }}" alt=""></a>
+                <p>Koios</p>
+            </nav>
+        </section>
+        <section class="c">
+            <p style="color: #4a4947; font-size: 16px; text-align: center; margin-top: 4%;">
+                Copyright 2023 - All Rights Reserved
+            </p>
+            <section class="sm">
+                <a href=""><img src="{{ url_for('static', filename='img/instagram.png') }}" style="margin-top: 6%;" alt=""></a>
+                <a href="https://twitter.com/KadirKynK134"><img src="{{ url_for('static', filename='img/twitter.png') }}" style="margin-top: 6%;" alt=""></a>
+                <a href="https://github.com/Koiosq"><img src="{{ url_for('static', filename='img/github.png') }}" style="margin-top: 6%;" alt=""></a>
+                <a href="mailto:kaynakkadir56@gmail.com"><img src="{{ url_for('static', filename='img/gmail.png') }}" style="margin-top: 6%;" alt=""></a>
+                <a href=""><img src="{{ url_for('static', filename='img/spotify-logo.png') }}" style="margin-top: 6%;" alt=""></a>
+            </section>
+        </section>
+    </footer>
+    <script src="{{ url_for('static', filename='Home.js') }}"></script>
+</body>
+</html>
